@@ -100,11 +100,10 @@ Original App Design Project - README Template
    * Profile settings screen once edit button is clicked on
    * Settings screen once settings is clicked on
 
-## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Screen%20Shot%202021-03-21%20at%204.52.10%20PM.png" width=600>
+<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Screen%20Shot%202021-03-21%20at%204.52.50%20PM.png" width=600>
+<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Screen%20Shot%202021-03-21%20at%204.53.15%20PM.png" width=600>
 
 ### [BONUS] Interactive Prototype
 
