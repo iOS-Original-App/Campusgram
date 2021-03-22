@@ -108,10 +108,54 @@ Original App Design Project - README Template
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+| Property | Type| Description|
+| --------------- | --------------- | --------------- |
+| likesCount | int | Number of likes for post |
+| commentsCount | int | Number of comments for post |
+| objectID | string | ID that identifies the object |
+| createdAt | Date time | The time a post was created |
+| updatedAt | Date time | The time a post was updated |
+| image(s) | File | Images of where the event is going to be |
+| caption | String | Description of the event |
+| host(s) | Pointer to user | Event host(s) |
+| location | Location | Location of the event |
+| eventDate | Date time | Date of the event |
+
 ### Networking
-- [Add list of network requests by screen ]
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read/GET) Query all posts where user is author
+         ```swift
+         let query = PFQuery(className:"Post")
+         query.whereKey("author", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
+      - (Create/POST) Create a new like on a post
+      - (Delete) Delete existing like
+      - (Create/POST) Create a new comment on a post
+      - (Delete) Delete existing comment
+      - (GET) Get GPS map location of event
+      - (GET) Ability to share the post
+      - (Create/POST/GET) Reviews of event if the event happens on a regular basis and has happened before
+   - Create Post Screen
+      - (Create/POST) Create a new post object
+      - (Create/POST) Add location of event
+      - (Edit) Ability to edit the post
+      - (Create/POST) Expected party size of event
+      - (Add) Add other hosts
+      - (Create/POST) Date and time of the event
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile imageb and name
+      - (Update) Update user settings
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
