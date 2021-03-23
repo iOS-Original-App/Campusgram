@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99E5F72EB0B54741A1E6BA89 /* Pods_CampusgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2F09B71C52D8D055D06EB /* Pods_CampusgramUITests.framework */; };
+		9A122B917020FA140511665A /* Pods_Campusgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB551E218F9F454651E2D1F9 /* Pods_Campusgram.framework */; };
 		E69B4702260A6E5C00D3EAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4701260A6E5C00D3EAD8 /* AppDelegate.swift */; };
 		E69B4704260A6E5C00D3EAD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4703260A6E5C00D3EAD8 /* SceneDelegate.swift */; };
 		E69B4706260A6E5C00D3EAD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4705260A6E5C00D3EAD8 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		E69B470E260A6E5E00D3EAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69B470C260A6E5E00D3EAD8 /* LaunchScreen.storyboard */; };
 		E69B4719260A6E5E00D3EAD8 /* CampusgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4718260A6E5E00D3EAD8 /* CampusgramTests.swift */; };
 		E69B4724260A6E5E00D3EAD8 /* CampusgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4723260A6E5E00D3EAD8 /* CampusgramUITests.swift */; };
+		FE2001D7196BFA04EB1B9B80 /* Pods_CampusgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050C119B2F35865D274E4682 /* Pods_CampusgramTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050C119B2F35865D274E4682 /* Pods_CampusgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F52AB44674C80DEF91B744 /* Pods-Campusgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campusgram.debug.xcconfig"; path = "Target Support Files/Pods-Campusgram/Pods-Campusgram.debug.xcconfig"; sourceTree = "<group>"; };
+		3F7046AD0F6502A02A080974 /* Pods-CampusgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampusgramUITests/Pods-CampusgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45EE3905852181BDB4B5CB79 /* Pods-CampusgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramTests.release.xcconfig"; path = "Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests.release.xcconfig"; sourceTree = "<group>"; };
+		73D2F09B71C52D8D055D06EB /* Pods_CampusgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE766AE5FFA012EF31673C1E /* Pods-Campusgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campusgram.release.xcconfig"; path = "Target Support Files/Pods-Campusgram/Pods-Campusgram.release.xcconfig"; sourceTree = "<group>"; };
+		CB551E218F9F454651E2D1F9 /* Pods_Campusgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campusgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6AFFD5DA975CF354221DDA /* Pods-CampusgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramUITests.release.xcconfig"; path = "Target Support Files/Pods-CampusgramUITests/Pods-CampusgramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E69B46FE260A6E5C00D3EAD8 /* Campusgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campusgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69B4701260A6E5C00D3EAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E69B4703260A6E5C00D3EAD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		E69B471F260A6E5E00D3EAD8 /* CampusgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69B4723260A6E5E00D3EAD8 /* CampusgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusgramUITests.swift; sourceTree = "<group>"; };
 		E69B4725260A6E5E00D3EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F295811B0BA6ABC5287FFCA5 /* Pods-CampusgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramTests.debug.xcconfig"; path = "Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A122B917020FA140511665A /* Pods_Campusgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2001D7196BFA04EB1B9B80 /* Pods_CampusgramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E5F72EB0B54741A1E6BA89 /* Pods_CampusgramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0ACA66B604C99EC5D40D51A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB551E218F9F454651E2D1F9 /* Pods_Campusgram.framework */,
+				050C119B2F35865D274E4682 /* Pods_CampusgramTests.framework */,
+				73D2F09B71C52D8D055D06EB /* Pods_CampusgramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E69B46F5260A6E5C00D3EAD8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				E69B4717260A6E5E00D3EAD8 /* CampusgramTests */,
 				E69B4722260A6E5E00D3EAD8 /* CampusgramUITests */,
 				E69B46FF260A6E5C00D3EAD8 /* Products */,
+				F9BF3E20A72957F60669A06B /* Pods */,
+				E0ACA66B604C99EC5D40D51A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = CampusgramUITests;
 			sourceTree = "<group>";
 		};
+		F9BF3E20A72957F60669A06B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07F52AB44674C80DEF91B744 /* Pods-Campusgram.debug.xcconfig */,
+				AE766AE5FFA012EF31673C1E /* Pods-Campusgram.release.xcconfig */,
+				F295811B0BA6ABC5287FFCA5 /* Pods-CampusgramTests.debug.xcconfig */,
+				45EE3905852181BDB4B5CB79 /* Pods-CampusgramTests.release.xcconfig */,
+				3F7046AD0F6502A02A080974 /* Pods-CampusgramUITests.debug.xcconfig */,
+				DA6AFFD5DA975CF354221DDA /* Pods-CampusgramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E69B4728260A6E5E00D3EAD8 /* Build configuration list for PBXNativeTarget "Campusgram" */;
 			buildPhases = (
+				503DAAAA9B9BFC2F3C8BFEA0 /* [CP] Check Pods Manifest.lock */,
 				E69B46FA260A6E5C00D3EAD8 /* Sources */,
 				E69B46FB260A6E5C00D3EAD8 /* Frameworks */,
 				E69B46FC260A6E5C00D3EAD8 /* Resources */,
+				F0B0502C553DF210719744AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E69B472B260A6E5E00D3EAD8 /* Build configuration list for PBXNativeTarget "CampusgramTests" */;
 			buildPhases = (
+				5329DB542A8B1BCE873D87AF /* [CP] Check Pods Manifest.lock */,
 				E69B4710260A6E5E00D3EAD8 /* Sources */,
 				E69B4711260A6E5E00D3EAD8 /* Frameworks */,
 				E69B4712260A6E5E00D3EAD8 /* Resources */,
+				11ACBE450E332A0749F2C29B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E69B472E260A6E5E00D3EAD8 /* Build configuration list for PBXNativeTarget "CampusgramUITests" */;
 			buildPhases = (
+				840F4F4292C8F87D16F5F72D /* [CP] Check Pods Manifest.lock */,
 				E69B471B260A6E5E00D3EAD8 /* Sources */,
 				E69B471C260A6E5E00D3EAD8 /* Frameworks */,
 				E69B471D260A6E5E00D3EAD8 /* Resources */,
+				30159C1037D0CAE95541D1DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11ACBE450E332A0749F2C29B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30159C1037D0CAE95541D1DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusgramUITests/Pods-CampusgramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusgramUITests/Pods-CampusgramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampusgramUITests/Pods-CampusgramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503DAAAA9B9BFC2F3C8BFEA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Campusgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5329DB542A8B1BCE873D87AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusgramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840F4F4292C8F87D16F5F72D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusgramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B0502C553DF210719744AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Campusgram/Pods-Campusgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Campusgram/Pods-Campusgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Campusgram/Pods-Campusgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E69B46FA260A6E5C00D3EAD8 /* Sources */ = {
@@ -433,6 +600,7 @@
 		};
 		E69B4729260A6E5E00D3EAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F52AB44674C80DEF91B744 /* Pods-Campusgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +620,7 @@
 		};
 		E69B472A260A6E5E00D3EAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE766AE5FFA012EF31673C1E /* Pods-Campusgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +640,7 @@
 		};
 		E69B472C260A6E5E00D3EAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F295811B0BA6ABC5287FFCA5 /* Pods-CampusgramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +663,7 @@
 		};
 		E69B472D260A6E5E00D3EAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EE3905852181BDB4B5CB79 /* Pods-CampusgramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +686,7 @@
 		};
 		E69B472F260A6E5E00D3EAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7046AD0F6502A02A080974 /* Pods-CampusgramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +707,7 @@
 		};
 		E69B4730260A6E5E00D3EAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6AFFD5DA975CF354221DDA /* Pods-CampusgramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

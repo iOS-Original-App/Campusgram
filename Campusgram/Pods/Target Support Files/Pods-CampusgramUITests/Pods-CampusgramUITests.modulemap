@@ -1,0 +1,6 @@
+framework module Pods_CampusgramUITests {
+  umbrella header "Pods-CampusgramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
