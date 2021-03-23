@@ -101,9 +101,9 @@ Original App Design Project - README Template
    * Settings screen once settings is clicked on
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Screen%20Shot%202021-03-21%20at%204.52.10%20PM.png" width=600>
-<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Screen%20Shot%202021-03-21%20at%204.52.50%20PM.png" width=600>
-<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Screen%20Shot%202021-03-21%20at%204.53.15%20PM.png" width=600>
+<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Wireframes/Screen%20Shot%202021-03-21%20at%204.52.10%20PM.png" width=600>
+<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Wireframes/Screen%20Shot%202021-03-21%20at%204.52.50%20PM.png" width=600>
+<img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Wireframes/Screen%20Shot%202021-03-21%20at%204.53.15%20PM.png" width=600>
 
 ### [BONUS] Interactive Prototype
 
