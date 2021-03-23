@@ -7,6 +7,8 @@ target 'Campusgram' do
 
   # Pods for Campusgram
    pod 'Parse'
+   pod 'AlamofireImage'
+
   target 'CampusgramTests' do
     inherit! :search_paths
     # Pods for testing
