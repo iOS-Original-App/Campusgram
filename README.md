@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-Campusgram that lets you find and host fun events happening on your college campus. It is a safe app that only lets students like you who go to the same school to find events happening on campus. You can find events based on date, event type, and location. You can also rate events that are hosted on a regular basis to others know if they should go as well! Have fun and be respectuful, any user who has a history of disruptiveness could be kicked off of the app.
+Campusgram lets you find and host fun events happening on your college campus. It is a safe app that only lets students like you who go to the same school find events happening on campus. You can find events based on date, event type, and location. You can also rate events that are hosted on a regular basis to others know if they should go as well! Have fun and be respectful, any user who has a history of disruptiveness could be kicked off of the app.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
