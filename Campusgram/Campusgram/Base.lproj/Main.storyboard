@@ -104,7 +104,7 @@
         <!--Home-->
         <scene sceneID="p5U-gb-8Q6">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BAb-WR-hJe" customClass="MainfeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BAb-WR-hJe" customClass="MainfeedViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z2D-wX-EFT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,7 +114,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="170" id="XUp-0J-mu8" userLabel="PartyCell" customClass="PartyCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="170" id="XUp-0J-mu8" userLabel="PartyCell" customClass="PartyCell">
                                         <rect key="frame" x="0.0" y="28" width="414" height="170"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XUp-0J-mu8" id="2M1-39-nrI">
@@ -157,9 +157,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="posterView" destination="2hf-eg-VbX" id="Xhl-3j-RUI"/>
-                                            <outlet property="synopsisLabel" destination="G4N-KE-uRS" id="A8e-1F-ZWo"/>
-                                            <outlet property="titleLabel" destination="55n-c4-Vsc" id="wQK-03-61Z"/>
+                                            <outlet property="dateLabel" destination="G4N-KE-uRS" id="2qX-Ki-Wg6"/>
+                                            <outlet property="hostLabel" destination="zat-mz-MQ4" id="6VU-fV-RTs"/>
+                                            <outlet property="joinedLabel" destination="L2V-JZ-24i" id="Vz2-88-VpK"/>
+                                            <outlet property="partyLabel" destination="55n-c4-Vsc" id="kV4-qe-x3P"/>
+                                            <outlet property="partyView" destination="2hf-eg-VbX" id="W0U-8V-n2u"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -175,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdg-dp-cQO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1846" y="139"/>
+            <point key="canvasLocation" x="1844.9275362318842" y="138.61607142857142"/>
         </scene>
     </scenes>
     <resources>
