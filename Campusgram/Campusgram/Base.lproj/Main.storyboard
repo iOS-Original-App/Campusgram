@@ -211,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdV-W5-wLd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1913.0434782608697" y="175.44642857142856"/>
+            <point key="canvasLocation" x="1867" y="139"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="GcD-v7-kkw">
@@ -233,7 +233,7 @@
                                     <action selector="timeButton:" destination="o0V-0P-oAG" eventType="touchUpInside" id="Vmq-JC-GMy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGd-xC-EJN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGd-xC-EJN">
                                 <rect key="frame" x="20" y="158" width="374" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -244,7 +244,7 @@
                                     <action selector="locationButton:" destination="o0V-0P-oAG" eventType="touchUpInside" id="Guq-bM-WaG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvs-n9-eGR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvs-n9-eGR">
                                 <rect key="frame" x="20" y="196" width="374" height="30"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -255,7 +255,7 @@
                                     <action selector="eventButton:" destination="o0V-0P-oAG" eventType="touchUpInside" id="3hg-SK-5Xu"/>
                                 </connections>
                             </button>
-                            <searchBar contentMode="redraw" ambiguous="YES" placeholder="Search for an event" showsSearchResultsButton="YES" showsCancelButton="YES" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="34c-wd-IDK" userLabel="Search bar">
+                            <searchBar contentMode="redraw" placeholder="Search for an event" showsSearchResultsButton="YES" showsCancelButton="YES" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="34c-wd-IDK" userLabel="Search bar">
                                 <rect key="frame" x="0.0" y="58" width="414" height="44"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -273,13 +273,19 @@
                         <viewLayoutGuide key="safeArea" id="bbD-gh-Dcy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="zvs-n9-eGR" firstAttribute="leading" secondItem="bbD-gh-Dcy" secondAttribute="leading" constant="20" id="1Oe-Rs-BPP"/>
                             <constraint firstItem="Zzu-AT-GNo" firstAttribute="leading" secondItem="bbD-gh-Dcy" secondAttribute="leading" constant="20" id="3U9-4Y-pE7"/>
                             <constraint firstItem="zvs-n9-eGR" firstAttribute="top" secondItem="hGd-xC-EJN" secondAttribute="bottom" constant="8" symbolic="YES" id="4T3-Vj-Lga"/>
                             <constraint firstItem="bbD-gh-Dcy" firstAttribute="trailing" secondItem="Zzu-AT-GNo" secondAttribute="trailing" constant="20" id="E24-qa-PcN"/>
+                            <constraint firstItem="bbD-gh-Dcy" firstAttribute="trailing" secondItem="zvs-n9-eGR" secondAttribute="trailing" constant="20" id="ED5-jx-leY"/>
+                            <constraint firstItem="34c-wd-IDK" firstAttribute="trailing" secondItem="bbD-gh-Dcy" secondAttribute="trailing" id="KVq-1M-2mJ"/>
+                            <constraint firstItem="34c-wd-IDK" firstAttribute="leading" secondItem="bbD-gh-Dcy" secondAttribute="leading" id="Kc1-EU-vn8"/>
                             <constraint firstItem="hGd-xC-EJN" firstAttribute="top" secondItem="Zzu-AT-GNo" secondAttribute="bottom" constant="8" symbolic="YES" id="QWl-BR-RtB"/>
                             <constraint firstItem="bbD-gh-Dcy" firstAttribute="trailing" secondItem="Zzu-AT-GNo" secondAttribute="trailing" constant="20" id="WWL-vt-zf4"/>
                             <constraint firstItem="Zzu-AT-GNo" firstAttribute="top" secondItem="34c-wd-IDK" secondAttribute="bottom" constant="18" id="YrJ-fr-VZA"/>
+                            <constraint firstItem="hGd-xC-EJN" firstAttribute="leading" secondItem="bbD-gh-Dcy" secondAttribute="leading" constant="20" id="aVz-IG-IcZ"/>
                             <constraint firstItem="34c-wd-IDK" firstAttribute="top" secondItem="bbD-gh-Dcy" secondAttribute="top" constant="14" id="hir-jd-7W8"/>
+                            <constraint firstItem="bbD-gh-Dcy" firstAttribute="trailing" secondItem="hGd-xC-EJN" secondAttribute="trailing" constant="20" id="zYW-yB-3Yz"/>
                         </constraints>
                     </view>
                     <connections>
@@ -288,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9O-9Z-PeT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1075.3623188405797" y="175.44642857142856"/>
+            <point key="canvasLocation" x="957" y="139"/>
         </scene>
     </scenes>
     <resources>
