@@ -16,13 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Campusgram logo" translatesAutoresizingMaskIntoConstraints="NO" id="dPi-Do-teD">
-                                <rect key="frame" x="46" y="149" width="323" height="375"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Campusgram logo" translatesAutoresizingMaskIntoConstraints="NO" id="dPi-Do-teD">
+                                <rect key="frame" x="46" y="263" width="323" height="323"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="323" id="DBN-pg-ZhG"/>
+                                    <constraint firstAttribute="height" constant="323" id="Epp-XU-4dU"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dPi-Do-teD" secondAttribute="trailing" constant="45" id="23t-3k-Gqt"/>
+                            <constraint firstItem="dPi-Do-teD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="3sP-B3-qg9"/>
+                            <constraint firstItem="dPi-Do-teD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="219" id="YCf-ce-m3M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dPi-Do-teD" secondAttribute="bottom" constant="276" id="f7n-1e-nbE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
