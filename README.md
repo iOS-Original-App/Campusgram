@@ -9,12 +9,15 @@ Original App Design Project - README Template
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
 
+# MOST RECENT GIF
+
+<img src='http://g.recordit.co/hMTH210bi8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## Overview
 ### Description
 Campusgram lets you find and host fun events happening on your college campus. It is a safe app that only lets students like you who go to the same school find events happening on campus. You can find events based on date, event type, and location. You can also rate events that are hosted on a regular basis to others know if they should go as well! Have fun and be respectful, any user who has a history of disruptiveness could be kicked off of the app.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category: Event, Social**
 - **Mobile: Allows people to drop their current location, convenient to instantly upload pictures and description of events, and to easily invite people.**
 - **Story: Every campus deserves a chill app that brings people together on the weekends or whenever people want a distraction from their academic life.**
@@ -24,7 +27,7 @@ Campusgram lets you find and host fun events happening on your college campus. I
 
 ## Product Spec
 
-### 1. User Stories (Required and Optional)
+### 1. User Stories
 
 **Required Must-have Stories**
 
@@ -104,8 +107,6 @@ Campusgram lets you find and host fun events happening on your college campus. I
 <img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Wireframes/Screen%20Shot%202021-03-21%20at%204.52.10%20PM.png" width=600>
 <img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Wireframes/Screen%20Shot%202021-03-21%20at%204.52.50%20PM.png" width=600>
 <img src="https://raw.githubusercontent.com/iOS-Original-App/Campusgram/main/Wireframes/Screen%20Shot%202021-03-21%20at%204.53.15%20PM.png" width=600>
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 ### Models
