@@ -160,3 +160,8 @@ Campusgram lets you find and host fun events happening on your college campus. I
       - (Update) Update user settings
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+### Completed User Stories
+
+* User can sign up and login
+* User has his/her profile
