@@ -13,6 +13,7 @@
 		837942F026108B36005C6C5E /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837942EF26108B36005C6C5E /* PartyCell.swift */; };
 		99E5F72EB0B54741A1E6BA89 /* Pods_CampusgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2F09B71C52D8D055D06EB /* Pods_CampusgramUITests.framework */; };
 		9A122B917020FA140511665A /* Pods_Campusgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB551E218F9F454651E2D1F9 /* Pods_Campusgram.framework */; };
+		E68AA12A261582FF007914E1 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68AA129261582FF007914E1 /* NewPostViewController.swift */; };
 		E69B4702260A6E5C00D3EAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4701260A6E5C00D3EAD8 /* AppDelegate.swift */; };
 		E69B4704260A6E5C00D3EAD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4703260A6E5C00D3EAD8 /* SceneDelegate.swift */; };
 		E69B4709260A6E5C00D3EAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69B4707260A6E5C00D3EAD8 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		AE766AE5FFA012EF31673C1E /* Pods-Campusgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campusgram.release.xcconfig"; path = "Target Support Files/Pods-Campusgram/Pods-Campusgram.release.xcconfig"; sourceTree = "<group>"; };
 		CB551E218F9F454651E2D1F9 /* Pods_Campusgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campusgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6AFFD5DA975CF354221DDA /* Pods-CampusgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramUITests.release.xcconfig"; path = "Target Support Files/Pods-CampusgramUITests/Pods-CampusgramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E68AA129261582FF007914E1 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		E69B46FE260A6E5C00D3EAD8 /* Campusgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campusgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69B4701260A6E5C00D3EAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E69B4703260A6E5C00D3EAD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				E69B4748260A7A6800D3EAD8 /* FeedViewController.swift */,
 				103D6A0C26110A8D00AB75E8 /* SearchViewController.swift */,
 				103D6A1126110AB400AB75E8 /* ProfileViewController.swift */,
+				E68AA129261582FF007914E1 /* NewPostViewController.swift */,
 			);
 			path = Campusgram;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				E69B4741260A73C700D3EAD8 /* LoginViewController.swift in Sources */,
 				E69B4702260A6E5C00D3EAD8 /* AppDelegate.swift in Sources */,
 				837942F026108B36005C6C5E /* PartyCell.swift in Sources */,
+				E68AA12A261582FF007914E1 /* NewPostViewController.swift in Sources */,
 				E69B4749260A7A6800D3EAD8 /* FeedViewController.swift in Sources */,
 				8373576C2610515C00FF9DC6 /* MainfeedViewController.swift in Sources */,
 				E69B4704260A6E5C00D3EAD8 /* SceneDelegate.swift in Sources */,
