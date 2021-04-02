@@ -22,7 +22,6 @@
 		E69B4719260A6E5E00D3EAD8 /* CampusgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4718260A6E5E00D3EAD8 /* CampusgramTests.swift */; };
 		E69B4724260A6E5E00D3EAD8 /* CampusgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4723260A6E5E00D3EAD8 /* CampusgramUITests.swift */; };
 		E69B4741260A73C700D3EAD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4740260A73C700D3EAD8 /* LoginViewController.swift */; };
-		E69B4749260A7A6800D3EAD8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4748260A7A6800D3EAD8 /* FeedViewController.swift */; };
 		FE2001D7196BFA04EB1B9B80 /* Pods_CampusgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050C119B2F35865D274E4682 /* Pods_CampusgramTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +70,6 @@
 		E69B4723260A6E5E00D3EAD8 /* CampusgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusgramUITests.swift; sourceTree = "<group>"; };
 		E69B4725260A6E5E00D3EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E69B4740260A73C700D3EAD8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E69B4748260A7A6800D3EAD8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F295811B0BA6ABC5287FFCA5 /* Pods-CampusgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramTests.debug.xcconfig"; path = "Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +145,6 @@
 				E69B470C260A6E5E00D3EAD8 /* LaunchScreen.storyboard */,
 				E69B470F260A6E5E00D3EAD8 /* Info.plist */,
 				E69B4740260A73C700D3EAD8 /* LoginViewController.swift */,
-				E69B4748260A7A6800D3EAD8 /* FeedViewController.swift */,
 				103D6A0C26110A8D00AB75E8 /* SearchViewController.swift */,
 				103D6A1126110AB400AB75E8 /* ProfileViewController.swift */,
 				E68AA129261582FF007914E1 /* NewPostViewController.swift */,
@@ -448,7 +445,6 @@
 				E69B4702260A6E5C00D3EAD8 /* AppDelegate.swift in Sources */,
 				837942F026108B36005C6C5E /* PartyCell.swift in Sources */,
 				E68AA12A261582FF007914E1 /* NewPostViewController.swift in Sources */,
-				E69B4749260A7A6800D3EAD8 /* FeedViewController.swift in Sources */,
 				8373576C2610515C00FF9DC6 /* MainfeedViewController.swift in Sources */,
 				E69B4704260A6E5C00D3EAD8 /* SceneDelegate.swift in Sources */,
 			);

@@ -128,6 +128,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ITQ-Vn-KZw">
                                 <rect key="frame" x="100" y="155" width="215" height="215"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="215" id="Uo2-FK-GKN"/>
                                     <constraint firstAttribute="height" constant="215" id="xyM-mf-qYq"/>
@@ -211,12 +212,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdV-W5-wLd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3017" y="842"/>
+            <point key="canvasLocation" x="2646" y="842"/>
         </scene>
         <!--New Post-->
         <scene sceneID="q9k-O2-HcX">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="04J-G1-vgh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="New Post" id="0oX-9i-UcW" customClass="NewPostViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7o1-Wg-yBP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -225,10 +225,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qAy-CC-xfG">
                                 <rect key="frame" x="20" y="100" width="374" height="374"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="3xz-lI-nT4"/>
                                     <constraint firstAttribute="height" constant="374" id="VZl-DR-4eb"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="d28-wm-50y" appends="YES" id="Coa-QV-hjZ"/>
+                                </connections>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pVB-qp-Smf">
                                 <rect key="frame" x="131" y="486" width="263" height="34"/>
@@ -295,6 +299,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzI-XB-mTg">
+                                <rect key="frame" x="122" y="748" width="171" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Post Event">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onPostButton:" destination="0oX-9i-UcW" eventType="touchUpInside" id="MaC-1S-3Lr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zbq-EZ-7Hs"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -314,8 +330,14 @@
                         <outlet property="locationField" destination="DKt-yh-nQd" id="Wt5-1W-CM9"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04J-G1-vgh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="d28-wm-50y">
+                    <connections>
+                        <action selector="onCameraButton:" destination="0oX-9i-UcW" id="0p3-rv-st6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1205.7971014492755" y="841.74107142857144"/>
+            <point key="canvasLocation" x="1016" y="842"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="GcD-v7-kkw">
@@ -398,7 +420,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9O-9Z-PeT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2107" y="842"/>
+            <point key="canvasLocation" x="116" y="842"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="u5T-vd-aTM">
