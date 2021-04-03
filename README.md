@@ -165,3 +165,4 @@ Campusgram lets you find and host fun events happening on your college campus. I
 
 * User can sign up and login
 * User has his/her profile
+* User can post events
