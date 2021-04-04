@@ -2,7 +2,7 @@
 //  SavedViewController.swift
 //  Campusgram
 //
-//  Created by Shane Patra on 3/28/21.
+//  Created by Shane Patra on 4/4/21.
 //
 
 import UIKit
@@ -28,7 +28,8 @@ class SavedViewController: UIViewController, UITableViewDelegate, UITableViewDat
         super.viewDidAppear(animated)
         let query = PFQuery(className: "Parties")
         query.includeKeys(["host", "date", "party", "joined"])
-    
+        
+        // Add condition down here to show saved event after connecting the MainfeedViewController with parse
         query.findObjectsInBackground{ (parties, error) in
             if parties != nil {
                 self.parties = parties!
