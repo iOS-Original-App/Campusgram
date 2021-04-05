@@ -27,6 +27,7 @@
 		E69B4719260A6E5E00D3EAD8 /* CampusgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4718260A6E5E00D3EAD8 /* CampusgramTests.swift */; };
 		E69B4724260A6E5E00D3EAD8 /* CampusgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4723260A6E5E00D3EAD8 /* CampusgramUITests.swift */; };
 		E69B4741260A73C700D3EAD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69B4740260A73C700D3EAD8 /* LoginViewController.swift */; };
+		E6CC7B93261BD1E2002830A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CC7B92261BD1E1002830A0 /* MapKit.framework */; };
 		FE2001D7196BFA04EB1B9B80 /* Pods_CampusgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050C119B2F35865D274E4682 /* Pods_CampusgramTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		E69B4723260A6E5E00D3EAD8 /* CampusgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusgramUITests.swift; sourceTree = "<group>"; };
 		E69B4725260A6E5E00D3EAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E69B4740260A73C700D3EAD8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6CC7B92261BD1E1002830A0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F295811B0BA6ABC5287FFCA5 /* Pods-CampusgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramTests.debug.xcconfig"; path = "Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6CC7B93261BD1E2002830A0 /* MapKit.framework in Frameworks */,
 				9A122B917020FA140511665A /* Pods_Campusgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +117,7 @@
 		E0ACA66B604C99EC5D40D51A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6CC7B92261BD1E1002830A0 /* MapKit.framework */,
 				CB551E218F9F454651E2D1F9 /* Pods_Campusgram.framework */,
 				050C119B2F35865D274E4682 /* Pods_CampusgramTests.framework */,
 				73D2F09B71C52D8D055D06EB /* Pods_CampusgramUITests.framework */,

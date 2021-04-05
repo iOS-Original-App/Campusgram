@@ -27,7 +27,7 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func deleteAccountButton(_ sender: Any) {
-        PFUser.delete("loginsegue")
+        //PFUser.delete("loginsegue")
     }
     
     @IBAction func logOutButton(_ sender: Any) {
@@ -37,7 +37,7 @@ class SettingsViewController: UIViewController {
         let LoginViewController = main.instantiateViewController(identifier: "LoginViewController")
         guard let windowscene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowscene as? AppDelegate else { return }
         
-        delegate.window?.rootViewController = LoginViewController
+        //delegate.window?.rootViewController = LoginViewController
         
     
 
