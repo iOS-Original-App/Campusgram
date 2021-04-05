@@ -122,7 +122,7 @@
         <!--Profile-->
         <scene sceneID="FXn-f0-lul">
             <objects>
-                <viewController id="TSd-nw-fOV" customClass="ProfileViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Profile" id="TSd-nw-fOV" customClass="ProfileViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ewn-QV-rg4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -403,8 +403,8 @@
                         <segue destination="HZ7-rL-Fvk" kind="relationship" relationship="viewControllers" id="qLF-cT-lXU"/>
                         <segue destination="WeW-wx-qOD" kind="relationship" relationship="viewControllers" id="NuH-2q-Bit"/>
                         <segue destination="G3O-B7-f8a" kind="relationship" relationship="viewControllers" id="YFS-3a-CGh"/>
-                        <segue destination="Eou-pI-GNd" kind="relationship" relationship="viewControllers" id="1iA-Kd-dFp"/>
-                        <segue destination="xct-iq-VkQ" kind="relationship" relationship="viewControllers" id="tB8-hx-2QB"/>
+                        <segue destination="xct-iq-VkQ" kind="relationship" relationship="viewControllers" id="aJl-WW-3Vd"/>
+                        <segue destination="Eou-pI-GNd" kind="relationship" relationship="viewControllers" id="ySA-OZ-J6e"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJP-d3-Ncl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -474,7 +474,7 @@
         <!--Search-->
         <scene sceneID="GcD-v7-kkw">
             <objects>
-                <viewController id="o0V-0P-oAG" customClass="SearchViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Search" id="o0V-0P-oAG" customClass="SearchViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="dBY-WI-x4T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -576,10 +576,10 @@
             </objects>
             <point key="canvasLocation" x="-3243" y="1381"/>
         </scene>
-        <!--Home-->
+        <!--Main Feed-->
         <scene sceneID="ePb-ES-m6A">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Tqe-gr-kvN" customClass="MainfeedViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Main Feed" modalPresentationStyle="fullScreen" id="Tqe-gr-kvN" customClass="MainfeedViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v19-Tm-qH8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -654,10 +654,10 @@
             </objects>
             <point key="canvasLocation" x="-3243" y="2160"/>
         </scene>
-        <!--Feed Navigation Controller-->
+        <!--Saved Events Controller-->
         <scene sceneID="KXD-MV-zkQ">
             <objects>
-                <navigationController title="Feed" id="xct-iq-VkQ" userLabel="Feed Navigation Controller" sceneMemberID="viewController">
+                <navigationController title="Feed" id="xct-iq-VkQ" userLabel="Saved Events Controller" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="square.and.arrow.down" catalog="system" id="1oq-di-njE">
                         <imageReference key="selectedImage" image="square.and.arrow.down" catalog="system" symbolScale="default"/>
                     </tabBarItem>
@@ -674,10 +674,10 @@
             </objects>
             <point key="canvasLocation" x="-355" y="1381"/>
         </scene>
-        <!--Saved Event-->
+        <!--Saved Events-->
         <scene sceneID="b0E-yF-Oho">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="gHh-En-uj5" customClass="SavedViewController" sceneMemberID="viewController">
+                <viewController title="Saved Events" modalPresentationStyle="fullScreen" id="gHh-En-uj5" userLabel="Saved Events" customClass="SavedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qj8-Gf-2CX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
