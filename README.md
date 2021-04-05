@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 # MOST RECENT GIF
 
-<img src='http://g.recordit.co/hMTH210bi8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/uIS3JUQVmN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Overview
 ### Description
