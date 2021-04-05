@@ -8,6 +8,8 @@ target 'Campusgram' do
   # Pods for Campusgram
    pod 'Parse'
    pod 'AlamofireImage'
+   pod  'GoogleMaps', '4.2.0'
+   pod  'GooglePlaces', '4.2.0'
 
   target 'CampusgramTests' do
     inherit! :search_paths
@@ -19,6 +21,29 @@ target 'Campusgram' do
     inherit! :search_paths
     # Pods for testing
    pod 'Parse'
+  end
+
+target 'CampusgramTests' do
+    inherit! :search_paths
+    # Pods for testing
+   pod 'GoogleMaps', '4.2.0'
+  end
+
+  target 'CampusgramUITests' do
+    inherit! :search_paths
+    # Pods for testing
+   pod 'GoogleMaps', '4.2.0'
+  end
+target 'CampusgramTests' do
+    inherit! :search_paths
+    # Pods for testing
+   pod 'GooglePlaces', '4.2.0'
+  end
+
+  target 'CampusgramUITests' do
+    inherit! :search_paths
+    # Pods for testing
+   pod 'GooglePlaces', '4.2.0'
   end
 
 end

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		103D6A0D26110A8D00AB75E8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D6A0C26110A8D00AB75E8 /* SearchViewController.swift */; };
 		103D6A1226110AB400AB75E8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D6A1126110AB400AB75E8 /* ProfileViewController.swift */; };
+		10EA88F5261B8A4700C68314 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA88F4261B8A4700C68314 /* SettingsViewController.swift */; };
+		10EA88FA261B9F0700C68314 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA88F9261B9F0700C68314 /* MapViewController.swift */; };
+		10EA8904261BB7B000C68314 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA8903261BB7B000C68314 /* ChatCell.swift */; };
+		10EA890C261BB96300C68314 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA890B261BB96300C68314 /* ChatViewController.swift */; };
 		8372B3E1261A0D2D006CDDF5 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372B3E0261A0D2D006CDDF5 /* SavedViewController.swift */; };
 		8373576C2610515C00FF9DC6 /* MainfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8373576B2610515C00FF9DC6 /* MainfeedViewController.swift */; };
 		837942F026108B36005C6C5E /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837942EF26108B36005C6C5E /* PartyCell.swift */; };
@@ -48,6 +52,10 @@
 		07F52AB44674C80DEF91B744 /* Pods-Campusgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campusgram.debug.xcconfig"; path = "Target Support Files/Pods-Campusgram/Pods-Campusgram.debug.xcconfig"; sourceTree = "<group>"; };
 		103D6A0C26110A8D00AB75E8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		103D6A1126110AB400AB75E8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		10EA88F4261B8A4700C68314 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		10EA88F9261B9F0700C68314 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		10EA8903261BB7B000C68314 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		10EA890B261BB96300C68314 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3F7046AD0F6502A02A080974 /* Pods-CampusgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampusgramUITests/Pods-CampusgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		45EE3905852181BDB4B5CB79 /* Pods-CampusgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusgramTests.release.xcconfig"; path = "Target Support Files/Pods-CampusgramTests/Pods-CampusgramTests.release.xcconfig"; sourceTree = "<group>"; };
 		73D2F09B71C52D8D055D06EB /* Pods_CampusgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +149,8 @@
 				E69B4701260A6E5C00D3EAD8 /* AppDelegate.swift */,
 				E69B4703260A6E5C00D3EAD8 /* SceneDelegate.swift */,
 				E69B4707260A6E5C00D3EAD8 /* Main.storyboard */,
+				10EA8903261BB7B000C68314 /* ChatCell.swift */,
+				10EA88F4261B8A4700C68314 /* SettingsViewController.swift */,
 				8372B3E0261A0D2D006CDDF5 /* SavedViewController.swift */,
 				837942EF26108B36005C6C5E /* PartyCell.swift */,
 				8373576B2610515C00FF9DC6 /* MainfeedViewController.swift */,
@@ -151,6 +161,8 @@
 				103D6A0C26110A8D00AB75E8 /* SearchViewController.swift */,
 				103D6A1126110AB400AB75E8 /* ProfileViewController.swift */,
 				E68AA129261582FF007914E1 /* NewPostViewController.swift */,
+				10EA88F9261B9F0700C68314 /* MapViewController.swift */,
+				10EA890B261BB96300C68314 /* ChatViewController.swift */,
 			);
 			path = Campusgram;
 			sourceTree = "<group>";
@@ -442,14 +454,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EA88FA261B9F0700C68314 /* MapViewController.swift in Sources */,
 				103D6A1226110AB400AB75E8 /* ProfileViewController.swift in Sources */,
 				103D6A0D26110A8D00AB75E8 /* SearchViewController.swift in Sources */,
 				E69B4741260A73C700D3EAD8 /* LoginViewController.swift in Sources */,
+				10EA88F5261B8A4700C68314 /* SettingsViewController.swift in Sources */,
 				8372B3E1261A0D2D006CDDF5 /* SavedViewController.swift in Sources */,
 				E69B4702260A6E5C00D3EAD8 /* AppDelegate.swift in Sources */,
 				837942F026108B36005C6C5E /* PartyCell.swift in Sources */,
 				E68AA12A261582FF007914E1 /* NewPostViewController.swift in Sources */,
+				10EA890C261BB96300C68314 /* ChatViewController.swift in Sources */,
 				8373576C2610515C00FF9DC6 /* MainfeedViewController.swift in Sources */,
+				10EA8904261BB7B000C68314 /* ChatCell.swift in Sources */,
 				E69B4704260A6E5C00D3EAD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
