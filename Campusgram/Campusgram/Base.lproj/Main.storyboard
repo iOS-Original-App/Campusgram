@@ -403,7 +403,7 @@
                         <segue destination="HZ7-rL-Fvk" kind="relationship" relationship="viewControllers" id="qLF-cT-lXU"/>
                         <segue destination="WeW-wx-qOD" kind="relationship" relationship="viewControllers" id="NuH-2q-Bit"/>
                         <segue destination="G3O-B7-f8a" kind="relationship" relationship="viewControllers" id="YFS-3a-CGh"/>
-                        <segue destination="xct-iq-VkQ" kind="relationship" relationship="viewControllers" id="aJl-WW-3Vd"/>
+                        <segue destination="cSy-hn-HfA" kind="relationship" relationship="viewControllers" id="cbl-FW-OPP"/>
                         <segue destination="Eou-pI-GNd" kind="relationship" relationship="viewControllers" id="ySA-OZ-J6e"/>
                     </connections>
                 </tabBarController>
@@ -430,6 +430,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iaw-hW-aGF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1297" y="1381"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cqR-rS-zoL">
+            <objects>
+                <navigationController id="cSy-hn-HfA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="square.and.arrow.down" catalog="system" selectedImage="square.and.arrow.down" id="kSH-0s-w1t"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cPV-KI-tKV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gHh-En-uj5" kind="relationship" relationship="rootViewController" id="4MY-sk-wlI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDv-SR-BSS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-355" y="1381"/>
         </scene>
         <!--Profile Navigation Controller-->
         <scene sceneID="nRU-Zv-ED2">
@@ -654,26 +671,6 @@
             </objects>
             <point key="canvasLocation" x="-3243" y="2160"/>
         </scene>
-        <!--Saved Events Controller-->
-        <scene sceneID="KXD-MV-zkQ">
-            <objects>
-                <navigationController title="Feed" id="xct-iq-VkQ" userLabel="Saved Events Controller" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="square.and.arrow.down" catalog="system" id="1oq-di-njE">
-                        <imageReference key="selectedImage" image="square.and.arrow.down" catalog="system" symbolScale="default"/>
-                    </tabBarItem>
-                    <navigationItem key="navigationItem" id="CgZ-bO-6ta"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fMz-Of-dM7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="gHh-En-uj5" kind="relationship" relationship="rootViewController" id="Oc3-58-qFo"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Iwl-2z-c0G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-355" y="1381"/>
-        </scene>
         <!--Saved Events-->
         <scene sceneID="b0E-yF-Oho">
             <objects>
@@ -687,7 +684,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="170" id="5Io-lB-0ax" userLabel="PartyCell" customClass="PartyCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SavedCell" rowHeight="170" id="5Io-lB-0ax" userLabel="PartyCell" customClass="SavedCell" customModule="Campusgram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="170"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Io-lB-0ax" id="tOf-80-qcw">
@@ -730,11 +727,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="dateLabel" destination="fvR-CI-sVx" id="Ieu-5G-bLx"/>
-                                            <outlet property="hostLabel" destination="TxB-Rc-KkZ" id="8dZ-XK-JcP"/>
-                                            <outlet property="joinedLabel" destination="7Vp-FU-6TM" id="58D-t4-dVp"/>
-                                            <outlet property="partyLabel" destination="Icn-21-usC" id="rxh-TM-VaE"/>
-                                            <outlet property="partyView" destination="NIF-fG-gEo" id="CUC-B6-WdI"/>
+                                            <outlet property="dateLabel" destination="fvR-CI-sVx" id="DhY-OI-6ux"/>
+                                            <outlet property="hostLabel" destination="TxB-Rc-KkZ" id="RmD-AE-kqP"/>
+                                            <outlet property="joinedLabel" destination="7Vp-FU-6TM" id="8en-xH-7ND"/>
+                                            <outlet property="partyLabel" destination="Icn-21-usC" id="3d9-Ff-xmw"/>
+                                            <outlet property="partyView" destination="NIF-fG-gEo" id="8eE-XT-45J"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -745,7 +742,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Saved Event" id="9Lk-cn-dE2"/>
                     <connections>
-                        <outlet property="tableView" destination="jw5-Nd-FhP" id="hhY-Kh-czr"/>
+                        <outlet property="tableView" destination="jw5-Nd-FhP" id="9gn-TG-Oqk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghG-eN-q8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

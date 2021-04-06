@@ -45,7 +45,7 @@ class SavedViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let party = parties[indexPath.section]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PartyCell") as! PartyCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SavedCell") as! SavedCell
         
         let user = party["host"] as! PFUser
             
