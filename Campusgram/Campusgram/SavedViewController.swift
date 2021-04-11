@@ -49,16 +49,16 @@ class SavedViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let user = party["host"] as! PFUser
             
-        cell.hostLabel.text = user.username
-        cell.partyLabel.text = party["party"] as? String
+        cell.hostNameLabel.text = user.username
+        cell.eventNameLabel.text = party["party"] as? String
         cell.dateLabel.text = party["date"] as? String
-        cell.joinedLabel.text = party["joined"] as? String
+        cell.capacityLabel.text = party["joined"] as? String
         
         let imageFile = party["image"] as! PFFileObject
         let urlString = imageFile.url!
         let url = URL(string: urlString)!
         
-        cell.partyView.af_setImage(withURL: url)
+        cell.photoView.af_setImage(withURL: url)
         
         return cell
 

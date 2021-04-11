@@ -175,11 +175,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="dateLabel" destination="kKk-41-EYg" id="jQW-3B-TPQ"/>
-                                            <outlet property="hostLabel" destination="2TR-9k-hKo" id="m9X-16-Myo"/>
-                                            <outlet property="joinedLabel" destination="xJ7-ZC-Vp0" id="Pmq-oS-Gbt"/>
-                                            <outlet property="partyLabel" destination="81X-Gk-Jfd" id="7BW-8Z-b2R"/>
-                                            <outlet property="partyView" destination="374-qV-IJd" id="Ya6-Yn-fhX"/>
+                                            <outlet property="capacityLabel" destination="xJ7-ZC-Vp0" id="fAQ-74-nHz"/>
+                                            <outlet property="dateLabel" destination="kKk-41-EYg" id="Qsv-Lq-NRb"/>
+                                            <outlet property="eventNameLabel" destination="81X-Gk-Jfd" id="AHe-3T-ddc"/>
+                                            <outlet property="hostNameLabel" destination="2TR-9k-hKo" id="ycz-uT-enG"/>
+                                            <outlet property="photoView" destination="374-qV-IJd" id="oZt-79-SJq"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -871,11 +871,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="dateLabel" destination="kBh-l5-8qS" id="iz2-KM-hb6"/>
-                                            <outlet property="hostLabel" destination="lpH-Mb-s0a" id="iv7-Bm-wxH"/>
-                                            <outlet property="joinedLabel" destination="lKr-Zr-SqI" id="HD5-UH-aus"/>
-                                            <outlet property="partyLabel" destination="hBG-xV-R9M" id="Dbq-5n-lV9"/>
-                                            <outlet property="partyView" destination="w9u-43-P5r" id="WIi-Vz-I5G"/>
+                                            <outlet property="capacityLabel" destination="lKr-Zr-SqI" id="Kwx-Jr-pLK"/>
+                                            <outlet property="dateLabel" destination="kBh-l5-8qS" id="q1K-Cm-mp7"/>
+                                            <outlet property="eventNameLabel" destination="hBG-xV-R9M" id="deo-rS-zZ7"/>
+                                            <outlet property="hostNameLabel" destination="lpH-Mb-s0a" id="eOE-ey-K83"/>
+                                            <outlet property="photoView" destination="w9u-43-P5r" id="tV2-8W-Hlk"/>
                                             <segue destination="LPM-RC-Y2T" kind="presentation" id="mIT-SD-DXo"/>
                                         </connections>
                                     </tableViewCell>
