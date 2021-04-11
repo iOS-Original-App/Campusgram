@@ -15,8 +15,6 @@ class NewPostViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     @IBOutlet weak var eventNameField: UITextField!
     
-    @IBOutlet weak var hostNameField: UITextField!
-    
     @IBOutlet weak var dateField: UITextField!
     
     @IBOutlet weak var locationField: UITextField!
@@ -34,7 +32,7 @@ class NewPostViewController: UIViewController, UIImagePickerControllerDelegate, 
         let post = PFObject(className: "Posts")
         
         post["name"] = eventNameField.text!
-        post["host"] = hostNameField.text!
+        post["host"] = PFUser.current()!
         post["date"] = dateField.text!
         post["location"] = locationField.text!
         post["capacity"] = capacityField.text!

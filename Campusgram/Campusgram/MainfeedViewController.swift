@@ -10,7 +10,7 @@ import Parse
 import AlamofireImage
 
 class MainfeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     var parties = [PFObject]()
@@ -26,7 +26,7 @@ class MainfeedViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let query = PFQuery(className: "Parties")
+        let query = PFQuery(className: "Posts")
         query.includeKeys(["host", "date", "party", "joined"])
     
         query.findObjectsInBackground{ (parties, error) in
@@ -41,26 +41,34 @@ class MainfeedViewController: UIViewController, UITableViewDelegate, UITableView
         return parties.count
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return parties.count
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let party = parties[indexPath.section]
         let cell = tableView.dequeueReusableCell(withIdentifier: "PartyCell") as! PartyCell
         
         let user = party["host"] as! PFUser
-            
-        cell.hostLabel.text = user.username
-        cell.partyLabel.text = party["party"] as? String
-        cell.dateLabel.text = party["date"] as? String
-        cell.joinedLabel.text = party["joined"] as? String
+        cell.hostNameLabel.text = user.username
+        
+        cell.eventNameLabel.text = party["party"] as! String
+        cell.dateLabel.text = party["date"] as! String
+        cell.capacityLabel.text = party["joined"] as! String
         
         let imageFile = party["image"] as! PFFileObject
         let urlString = imageFile.url!
         let url = URL(string: urlString)!
         
-        cell.partyView.af_setImage(withURL: url)
+        cell.photoView.af_setImage(withURL: url)
         
         return cell
-
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let event = parties[indexPath.section]
+        selectedParty = event
     }
     
     /*
