@@ -558,9 +558,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="mWH-Wx-1fo" kind="relationship" relationship="rootViewController" id="YQy-tT-mRB"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nDv-SR-BSS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -696,7 +693,7 @@
             <objects>
                 <viewController title="Map" id="OLJ-tx-SwM" customClass="MapViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="691-mq-lWm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WLs-qH-7l5">
@@ -798,7 +795,7 @@
                                             <outlet property="eventNameLabel" destination="hBG-xV-R9M" id="deo-rS-zZ7"/>
                                             <outlet property="hostNameLabel" destination="lpH-Mb-s0a" id="eOE-ey-K83"/>
                                             <outlet property="photoView" destination="w9u-43-P5r" id="tV2-8W-Hlk"/>
-                                            <segue destination="LPM-RC-Y2T" kind="presentation" id="mIT-SD-DXo"/>
+                                            <segue destination="LPM-RC-Y2T" kind="presentation" id="gpM-CA-ncQ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -872,9 +869,9 @@
         <!--Saved Event-->
         <scene sceneID="NJg-uM-dIH">
             <objects>
-                <viewController id="mWH-Wx-1fo" customClass="SavedViewController" customModule="Campusgram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mWH-Wx-1fo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GGD-JX-Tqk">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ow1-fr-ASP">
@@ -1096,7 +1093,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zIU-fL-QY4"/>
+        <segue reference="CXh-tK-Vvc"/>
         <segue reference="xBW-uJ-8oN"/>
     </inferredMetricsTieBreakers>
     <resources>

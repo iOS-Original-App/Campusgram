@@ -9,12 +9,12 @@ import UIKit
 
 class SingleEventViewController: UIViewController {
 
-    @IBOutlet weak var partyView: UIImageView!
-    @IBOutlet weak var partyLabel: UILabel!
-    @IBOutlet weak var hostLabel: UILabel!
+    @IBOutlet weak var photoView: UIImageView!
+    @IBOutlet weak var eventNameLabel: UILabel!
+    @IBOutlet weak var hostNameLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
-    @IBOutlet weak var joinedLabel: UILabel!
+    @IBOutlet weak var capacityLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
