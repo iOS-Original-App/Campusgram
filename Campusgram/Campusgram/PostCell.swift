@@ -1,22 +1,23 @@
 //
-//  PartyCell.swift
+//  PostCell.swift
 //  Campusgram
 //
-//  Created by Shane Patra on 3/28/21.
+//  Created by Winnie Yang on 4/10/21.
 //
 
 import UIKit
 
-class PartyCell: UITableViewCell {
-
- 
+class PostCell: UITableViewCell {
 
     @IBOutlet weak var photoView: UIImageView!
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var eventNameLabel: UILabel!
-    @IBOutlet weak var hostNameLabel: UILabel!
-    @IBOutlet weak var capacityLabel: UILabel!
     
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    @IBOutlet weak var eventNameLabel: UILabel!
+    
+    @IBOutlet weak var hostNameLabel: UILabel!
+    
+    @IBOutlet weak var capacityLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

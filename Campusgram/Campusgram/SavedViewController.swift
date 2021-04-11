@@ -26,7 +26,7 @@ class SavedViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let query = PFQuery(className: "Parties")
+        let query = PFQuery(className: "Posts")
         query.includeKeys(["host", "date", "party", "joined"])
         
         // Add condition down here to show saved event after connecting the MainfeedViewController with parse
