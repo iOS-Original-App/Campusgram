@@ -18,10 +18,23 @@ class SingleEventViewController: UIViewController {
     @IBOutlet weak var capacityLabel: UILabel!
     
     var parties = [PFObject]()
+    let party = PFObject(className: "parties")
+    var favorited:Bool = false
+    
+    @IBAction func favButton(_ sender: Any) {
+        let toBeFavortied = !favorited
+        if (toBeFavortied) {
+                party["saved"] = true
+        } else {
+            party["saved"] = false
+        }
+    }
+    
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let query = PFQuery(className: "Posts")
-        query.includeKeys(["host", "date", "party", "joined", "location"])
+        query.includeKeys(["host", "date", "party", "joined", "location", "saved"])
         
         // Add condition down here to show saved event after connecting the MainfeedViewController with parse
         query.findObjectsInBackground{ (parties, error) in
@@ -34,7 +47,6 @@ class SingleEventViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let party = PFObject(className: "parties")
         let user = party["host"] as! PFUser
             
         hostNameLabel.text = user.username
