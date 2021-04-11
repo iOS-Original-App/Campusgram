@@ -13,6 +13,7 @@ class SavedViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     @IBOutlet weak var tableView: UITableView!
     var parties = [PFObject]()
+    
     var selectedParty: PFObject!
     
     override func viewDidLoad() {
@@ -26,11 +27,11 @@ class SavedViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let query = PFQuery(className: "Posts")
-        query.includeKeys(["host", "date", "party", "joined"])
+        query.includeKeys(["host", "date", "party", "joined", "saved"])
         
         // Add condition down here to show saved event after connecting the MainfeedViewController with parse
         query.findObjectsInBackground{ (parties, error) in
-            if parties != nil {
+            if (parties != nil) {
                 self.parties = parties!
                 self.tableView.reloadData()
             }

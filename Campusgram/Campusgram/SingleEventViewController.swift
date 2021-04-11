@@ -24,7 +24,7 @@ class SingleEventViewController: UIViewController {
     @IBAction func favButton(_ sender: Any) {
         let toBeFavortied = !favorited
         if (toBeFavortied) {
-                party["saved"] = true
+            party["saved"] = true
         } else {
             party["saved"] = false
         }
