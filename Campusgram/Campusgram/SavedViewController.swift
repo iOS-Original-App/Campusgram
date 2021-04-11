@@ -12,7 +12,6 @@ import AlamofireImage
 class SavedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-    
     var parties = [PFObject]()
     var selectedParty: PFObject!
     

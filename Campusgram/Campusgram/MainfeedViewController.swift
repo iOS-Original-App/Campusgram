@@ -53,9 +53,9 @@ class MainfeedViewController: UIViewController, UITableViewDelegate, UITableView
         let user = party["host"] as! PFUser
         cell.hostNameLabel.text = user.username
         
-        cell.eventNameLabel.text = party["party"] as! String
-        cell.dateLabel.text = party["date"] as! String
-        cell.capacityLabel.text = party["joined"] as! String
+        cell.eventNameLabel.text = party["party"] as? String
+        cell.dateLabel.text = party["date"] as? String
+        cell.capacityLabel.text = party["joined"] as? String
         
         let imageFile = party["image"] as! PFFileObject
         let urlString = imageFile.url!
