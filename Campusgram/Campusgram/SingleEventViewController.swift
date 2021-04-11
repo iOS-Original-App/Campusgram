@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class SingleEventViewController: UIViewController {
 
@@ -16,10 +17,37 @@ class SingleEventViewController: UIViewController {
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var capacityLabel: UILabel!
     
+    var parties = [PFObject]()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let query = PFQuery(className: "Posts")
+        query.includeKeys(["host", "date", "party", "joined", "location"])
+        
+        // Add condition down here to show saved event after connecting the MainfeedViewController with parse
+        query.findObjectsInBackground{ (parties, error) in
+            if parties != nil {
+                self.parties = parties!
+            }
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let party = PFObject(className: "parties")
+        let user = party["host"] as! PFUser
+            
+        hostNameLabel.text = user.username
+        eventNameLabel.text = party["party"] as? String
+        dateLabel.text = party["date"] as? String
+        capacityLabel.text = party["joined"] as? String
+        locationLabel.text = party["location"] as? String
+        let imageFile = party["image"] as! PFFileObject
+        let urlString = imageFile.url!
+        let url = URL(string: urlString)!
+        
+        photoView.af_setImage(withURL: url)
+        
     }
     
 

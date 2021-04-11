@@ -790,11 +790,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="capacityLabel" destination="1bK-KM-LZe" id="XXh-ee-qch"/>
-                                            <outlet property="dateLabel" destination="kBh-l5-8qS" id="q1K-Cm-mp7"/>
-                                            <outlet property="eventNameLabel" destination="hBG-xV-R9M" id="deo-rS-zZ7"/>
-                                            <outlet property="hostNameLabel" destination="lpH-Mb-s0a" id="eOE-ey-K83"/>
-                                            <outlet property="photoView" destination="w9u-43-P5r" id="tV2-8W-Hlk"/>
+                                            <outlet property="capacityLabel" destination="1bK-KM-LZe" id="084-Kl-mtB"/>
+                                            <outlet property="dateLabel" destination="kBh-l5-8qS" id="az1-Ap-Md9"/>
+                                            <outlet property="eventNameLabel" destination="hBG-xV-R9M" id="Rq2-PS-zKo"/>
+                                            <outlet property="hostNameLabel" destination="lpH-Mb-s0a" id="CCJ-bw-2PI"/>
+                                            <outlet property="photoView" destination="w9u-43-P5r" id="sYv-bR-u39"/>
                                             <segue destination="LPM-RC-Y2T" kind="presentation" id="gpM-CA-ncQ"/>
                                         </connections>
                                     </tableViewCell>
@@ -1043,12 +1043,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="dateLabel" destination="uJh-TI-0B7" id="oCV-WG-Stt"/>
-                        <outlet property="hostLabel" destination="yxj-9f-wkR" id="WuN-Po-PjV"/>
-                        <outlet property="joinedLabel" destination="nPA-ER-Ns8" id="usR-cl-Elt"/>
-                        <outlet property="locationLabel" destination="bMA-IR-SBv" id="EVw-zQ-nud"/>
-                        <outlet property="partyLabel" destination="mar-hQ-0yQ" id="5pE-3T-6oG"/>
-                        <outlet property="partyView" destination="DN0-QE-SCW" id="Beo-zS-rQ1"/>
+                        <outlet property="capacityLabel" destination="nPA-ER-Ns8" id="dKE-0F-QLJ"/>
+                        <outlet property="dateLabel" destination="uJh-TI-0B7" id="Gns-l9-zcr"/>
+                        <outlet property="eventNameLabel" destination="mar-hQ-0yQ" id="yGe-bN-8Gk"/>
+                        <outlet property="hostNameLabel" destination="yxj-9f-wkR" id="Fvu-Ow-Zgb"/>
+                        <outlet property="locationLabel" destination="bMA-IR-SBv" id="kzB-ie-wsE"/>
+                        <outlet property="photoView" destination="DN0-QE-SCW" id="gjB-XE-KX1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qmy-1i-xfb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
